@@ -1,0 +1,123 @@
+* {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #003366;
+padding: 15px 40px;
+position: sticky;
+top: 0;
+}
+
+.logo {
+color: white;
+}
+
+.menu a {
+color: white;
+text-decoration: none;
+margin-left: 25px;
+font-size: 16px;
+}
+.menu a:hover {
+text-decoration: underline;
+}
+
+/* Home */
+.home {
+height: 90vh;
+background: linear-gradient(rgba(0,0,0,0.6),
+rgba(0,0,0,0.6)),
+url("https://www.pict.edu/images/banner.jpg")
+;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+padding-left: 60px;
+}
+
+.home-content {
+color: white;
+max-width: 600px;
+}
+
+.home h1 {
+font-size: 42px;
+margin-bottom: 15px;
+}
+.home p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.btn {
+background: #ffcc00;
+color: black;
+padding: 10px 20px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+}
+
+/* Sections */
+.section {
+padding: 60px 40px;
+text-align: center;
+}
+
+.light {
+background: #f4f4f4;
+}
+
+.center-text {
+max-width: 800px;
+margin: auto;
+font-size: 16px;
+}
+/* Cards */
+.cards {
+display: flex;
+justify-content: center;
+gap: 25px;
+margin-top: 30px;
+}
+
+.card {
+background: white;
+padding: 25px;
+width: 260px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Stats */
+.stats {
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-top: 30px;
+}
+
+.stat {
+background: #003366;
+color: white;
+padding: 25px;
+width: 160px;
+border-radius: 8px;
+font-size: 18px;
+}
+
+/* Footer */
+.footer {
+background: #003366;
+color: white;
+text-align: center;
+padding: 15px;
+}
